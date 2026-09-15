@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Custom utility for clean Casio LCD display */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 0.95; }
+  50% { opacity: 0.25; }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 1.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

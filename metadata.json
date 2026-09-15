@@ -1,0 +1,6 @@
+{
+  "name": "Casio Scientific Calculator & AI Math Assistant",
+  "description": "Full authentic Casio scientific calculator with natural textbook display, multi-theme customization, and an integrated Gemini AI math copilot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
